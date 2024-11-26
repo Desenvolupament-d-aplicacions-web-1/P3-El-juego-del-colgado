@@ -1,7 +1,7 @@
 # P3-El-juego-del-colgado
 Programació - DAW1
 
-![Bitbucket last commit](https://img.shields.io/bitbucket/last-commit/jaanque/P3-El-juego-del-colgado/main)
+![Bitbucket last commit](https://img.shields.io/bitbucket/last-commit/https%3A%2F%2Fgithub.com%2Fjaanque/https%3A%2F%2Fgithub.com%2FDesenvolupament-d-aplicacions-web-1%2FP3-El-juego-del-colgado/https%3A%2F%2Fgithub.com%2FDesenvolupament-d-aplicacions-web-1%2FP3-El-juego-del-colgado%2Ftree%2Fmain)
 
 
 [COMMIT RULES](https://github.com/Desenvolupament-d-aplicacions-web-1/P3-El-juego-del-colgado/blob/main/COMMIT_RULES.md)
