@@ -3,6 +3,8 @@ Programació - DAW1
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Desenvolupament-d-aplicacions-web-1/P3-El-juego-del-colgado)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Desenvolupament-d-aplicacions-web-1/P3-El-juego-del-colgado)
+
 
 [COMMIT RULES](https://github.com/Desenvolupament-d-aplicacions-web-1/P3-El-juego-del-colgado/blob/main/COMMIT_RULES.md)
 
