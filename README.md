@@ -26,4 +26,4 @@ Programació - DAW1
 Al finalizar las rondas, mostrar el nombre del jugador que haya ganado más rondas.
 
 ---
-by Jan Queralt
+&copy; by Jan Queralt
