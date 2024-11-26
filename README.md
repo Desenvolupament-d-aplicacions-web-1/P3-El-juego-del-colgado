@@ -1,4 +1,4 @@
-# P3-El-juego-del-colgado
+# P3 - El juego del colgado
 Programació - DAW1
 
 <div>
