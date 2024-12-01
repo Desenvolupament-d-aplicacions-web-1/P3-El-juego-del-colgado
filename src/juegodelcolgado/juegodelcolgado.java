@@ -88,7 +88,22 @@ public class juegodelcolgado {
                    }
                }
                
+            // Verifico si todos se quedaron sin intentos
+               boolean quedanIntentos = false;
+               for (int intentos : intentosRestantes) {
+                   if (intentos > 0) {
+                       quedanIntentos = true;
+                       break;
+                   }
+               }
                
+               if (!quedanIntentos) {
+                   System.out.println("\nTodos se quedaron sin intentos.");
+                   System.out.println("La palabra secreta era: " + palabraSecreta);
+                   break;
+               }
+           }
+       }
                            
 		
 	}
