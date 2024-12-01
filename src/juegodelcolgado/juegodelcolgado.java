@@ -28,6 +28,28 @@ public class juegodelcolgado {
             System.out.print("Introduce el nombre del jugador " + (i + 1) + ": ");
             jugadores[i] = s.nextLine();
         }
+        
+        // Solicito número de rondas
+        System.out.print("¿Cuántas rondas quieren jugar?: ");
+        int numRondas = s.nextInt();
+        
+        // Inicio las rondas
+        for (int ronda = 1; ronda <= numRondas; ronda++) {
+        System.out.println("\n--- Ronda " + ronda + " ---");
+        
+        // Pido la palabra secreta
+           System.out.print("Administrador, introduce la palabra secreta: ");
+           String palabraSecreta = s.nextLine().toLowerCase();
+           String palabraOculta = "_".repeat(palabraSecreta.length());
+           
+        // Ronda activa
+           boolean palabraAdivinada = false;
+           int[] intentosRestantes = new int[numJugadores];
+           for (int i = 0; i < numJugadores; i++) {
+               intentosRestantes[i] = 6;
+           }
+           
+           
 		
 	}
 
