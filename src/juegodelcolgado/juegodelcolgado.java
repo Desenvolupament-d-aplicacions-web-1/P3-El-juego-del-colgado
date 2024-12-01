@@ -20,6 +20,14 @@ public class juegodelcolgado {
             System.out.println("Debe haber al menos 2 jugadores para jugar.");
             return;
         }
+        
+        // Solicito nùmero de jugadores
+        String[] jugadores = new String[numJugadores];
+        int[] puntajes = new int[numJugadores];
+        for (int i = 0; i < numJugadores; i++) {
+            System.out.print("Introduce el nombre del jugador " + (i + 1) + ": ");
+            jugadores[i] = s.nextLine();
+        }
 		
 	}
 
