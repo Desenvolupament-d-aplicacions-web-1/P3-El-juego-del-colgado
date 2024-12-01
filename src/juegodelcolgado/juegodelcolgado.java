@@ -49,7 +49,30 @@ public class juegodelcolgado {
                intentosRestantes[i] = 6;
            }
            
-           
+           while (!palabraAdivinada) {
+               for (int i = 0; i < numJugadores; i++) {
+                   if (intentosRestantes[i] > 0) {
+                       System.out.println("\nTurno de " + jugadores[i]);
+                       System.out.println("Palabra: " + palabraOculta);
+                       System.out.println("Intentos restantes: " + intentosRestantes[i]);
+                       System.out.print("Introduce una letra: ");
+                       char letra = s.nextLine().toLowerCase().charAt(0);
+
+                       // Verificar si la letra está en la palabra
+                       boolean acierto = false;
+                       String nuevaPalabraOculta = "";
+                       for (int j = 0; j < palabraSecreta.length(); j++) {
+                           if (palabraSecreta.charAt(j) == letra) {
+                               nuevaPalabraOculta += letra;
+                               acierto = true;
+                           } else {
+                               nuevaPalabraOculta += palabraOculta.charAt(j);
+                           }
+                       }
+                       palabraOculta = nuevaPalabraOculta;
+                       
+                       
+                           
 		
 	}
 
