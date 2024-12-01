@@ -104,6 +104,27 @@ public class juegodelcolgado {
                }
            }
        }
+        
+     // Muestro los resultados finales
+        System.out.println("\n--- Resultados Finales ---");
+        for (int i = 0; i < numJugadores; i++) {
+            System.out.println(jugadores[i] + ": " + puntajes[i] + " rondas ganadas");
+        }
+        
+     // Determino el ganador
+        int maxPuntaje = 0;
+        String ganador = "";
+        for (int i = 0; i < numJugadores; i++) {
+            if (puntajes[i] > maxPuntaje) {
+                maxPuntaje = puntajes[i];
+                ganador = jugadores[i];
+            }
+        }
+        System.out.println("El ganador es: " + ganador);
+        System.out.println("¡Gracias por jugar!");
+
+        // Cierro el scanner
+        s.close();
                            
 		
 	}
