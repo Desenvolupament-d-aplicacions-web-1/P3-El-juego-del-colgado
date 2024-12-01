@@ -58,7 +58,7 @@ public class juegodelcolgado {
                        System.out.print("Introduce una letra: ");
                        char letra = s.nextLine().toLowerCase().charAt(0);
 
-                       // Verificar si la letra está en la palabra
+                       // Verifico si la letra está en la palabra
                        boolean acierto = false;
                        String nuevaPalabraOculta = "";
                        for (int j = 0; j < palabraSecreta.length(); j++) {
@@ -71,7 +71,24 @@ public class juegodelcolgado {
                        }
                        palabraOculta = nuevaPalabraOculta;
                        
-                       
+                       if (acierto) {
+                           System.out.println("¡Correcto!");
+                       } else {
+                           System.out.println("¡Incorrecto!");
+                           intentosRestantes[i]--;
+                       }
+
+                       // Verifico si se adivinó la palabra
+                       if (palabraOculta.equals(palabraSecreta)) {
+                           System.out.println("¡" + jugadores[i] + " ha adivinado la palabra!");
+                           puntajes[i]++;
+                           palabraAdivinada = true;
+                           break;
+                       }
+                   }
+               }
+               
+               
                            
 		
 	}
