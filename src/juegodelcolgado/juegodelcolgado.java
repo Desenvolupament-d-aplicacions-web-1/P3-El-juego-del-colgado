@@ -49,6 +49,7 @@ public class juegodelcolgado {
                 intentosRestantes[i] = 6;
             }
 
+            // Bucle para iniciar la ronda
             while (!palabraAdivinada) {
                 for (int i = 0; i < numJugadores; i++) {
                     if (intentosRestantes[i] > 0) {
