@@ -13,7 +13,8 @@ public class juegodelcolgado {
         System.out.print("¿Cuántos jugadores quieren jugar? (mínimo 2): ");
         int numJugadores = s.nextInt();
         s.nextLine();
-
+        
+        // Si no hay 2 jugadores salta este print
         if (numJugadores < 2) {
             System.out.println("Debe haber al menos 2 jugadores para jugar.");
             return;
